@@ -48,5 +48,6 @@ body {
 
     .inp {
         width: 200px;
+        text-align: center;
     }
 }
