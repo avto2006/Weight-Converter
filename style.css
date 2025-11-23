@@ -17,5 +17,9 @@ body {
 }
 
 .inp {
-    margin-left: 5vh;
+    margin-left: 7vh;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    width: 320px;
 }
