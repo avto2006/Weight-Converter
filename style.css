@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(56deg, yellow, green);
+    background-attachment: fixed;
+}
+
+.weightConverter {
+    color: green;
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30vh;
+    width: 550px;
+    height: 58vh;
+}
