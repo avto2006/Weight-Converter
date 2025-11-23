@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(56deg, yellow, green);
     background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
 }
 
 .weightConverter {
