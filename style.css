@@ -28,3 +28,24 @@ body {
 .inner {
     margin-top: 5vh;
 }
+
+
+@media  screen and (max-width:768px) {
+     
+    .weightConverter {
+        display: grid;
+        width: 300px;
+        justify-content: center;
+        margin: 0;
+        margin-top: 20vh;
+    }
+
+    .textContent {
+        display: grid;
+        text-align: center;
+    }
+
+    .inp {
+        width: 200px;
+    }
+}
