@@ -1,10 +1,12 @@
 let inp = document.querySelector('.inp')
 let inner = document.querySelector('.inner')
 let lbs = inp.value 
-let kg =  lbs * 0.453592
+
 
 const calculate = () => {
+    let lbs = parseFloat(inp.value) || 0
+    let kg =  lbs * 0.453592
      inner.innerHTML= `Your weight in kg is: ${kg}`
 }
 
-calculate()
+inp.addEventListener('input', calculate)
