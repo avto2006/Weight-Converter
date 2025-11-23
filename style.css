@@ -6,11 +6,12 @@ body {
 .weightConverter {
     color: green;
     display: flex;
-    justify-content: center;
-
-    background-color: white;
+    background:linear-gradient(60deg, yellow,green);
     margin: 0 auto;
     margin-top: 30vh;
-    width: 550px;
-    height: 58vh;
+    width: 500px;
+    height: 30vh;
+    padding-left: 7vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 3px  yellow;
 }
